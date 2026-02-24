@@ -1,0 +1,9 @@
+.card{
+    border: 2px solid #fa0000;
+    width: 150px;
+}
+
+.products{
+    display: flex;
+    width: 350px;
+}
