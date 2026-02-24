@@ -49,7 +49,7 @@ export const ShoppingCart = () => {
 
             <div className="cartInfo">
                 <h3>Total: ${cart.reduce((total, item) => total + item.productPrice, 0)}</h3>
-                <h3></h3>
+                <h3>Cantidad de Items: {cart.length}</h3>
             </div>
             
         </>
